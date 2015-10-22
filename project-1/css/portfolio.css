@@ -1,0 +1,30 @@
+.rjust {
+    text-align: right;
+}
+#mainimage {
+    margin-bottom: 3em;
+}
+h2.subtitle {
+    margin-top: 2em;
+    color: #bcbbbb;
+}
+#featured-work img {
+    height: 200px;
+}
+#featured-work h3{
+    font-size: 26pt;
+    color: #747704;
+    text-transform: uppercase;
+    text-align: center;
+}
+#featured-work p.url {
+    text-align: center;
+}
+#featured-work p.url a {
+    font-size: 12pt;
+    color: #bcbbbb;
+}
+#mainimage img {
+    width: 100%;
+    height: 400px;
+}
