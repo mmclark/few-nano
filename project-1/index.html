@@ -1,14 +1,71 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Miles Clark Portfolio</title>
-  </head>
-  <body>
-    <h1>Portfolio Experiments</h1>
-    <ul>
-      <li><a href="portfolio-oldschool.html">Old-school</a></li>
-    </ul>
-  </body>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-  
+    <title>Portfolio (bootstrap version)</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/portfolio.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <div class="page-header">
+	        <div class="row">
+	            <div class="col-lg-6">
+	               <img src="img/mmclark_monster.jpg">
+	            </div>
+	            <div class="col-lg-6 rjust">
+		            <h1>Miles Clark</h1>
+		            <h2>Something goes here</h2>
+	            </div>
+            </div>
+        </div>
+
+        <div class="row">
+	        <div id="mainimage" class="col-lg-12">
+	        <img src="img/harmony.jpg" alt="Harmony Headlands" class="img-reponsive">
+	        <!--
+	           <picture>
+	               <source media="(min-width: 1100px)" srcset="img/harmony.jpg" />
+                   <source media="(min-width: 750px)" srcset="img/harmony_750.jpg" />
+                   <source media="(min-width: 500px)" srcset="img/harmony_500.jpg" />
+                   <img src="img/harmony_320.jpg" alt="Harmony Headlands">
+               </picture>
+                -->
+	        </div>
+        </div>
+
+        <h2 class="subtitle">Featured Work</h2>
+
+        <div id="featured-work" class="row">
+	        <div class="col-lg-4">
+                <img src="img/highlight1.jpg" class="img-reponsive" alt="project example">
+	            <h3>Project 1</h3>
+	            <p class="url"><a href="http://github.com/">http://github.com/example/project1</a></p>
+	        </div>
+	        <div class="col-lg-4">
+	            <img src="img/highlight2.jpg" class="img-reponsive" alt="project example">
+	            <h3>Project 1</h3>
+	            <p class="url"><a href="http://github.com/">http://github.com/example/project2</a></p>
+	        </div>
+	        <div class="col-lg-4">
+	            <img src="img/highlight3.jpg" class="img-reponsive" alt="project example">
+	            <h3>Bokeh</h3>
+	            <p class="url"><a href="http://github.com/">http://github.com/example/project3</a></p>
+	        </div>
+        </div>
+
+    </div>
+
+
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+	<script>
+	</script>
+</body>
 </html>
