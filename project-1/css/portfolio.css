@@ -23,7 +23,7 @@ h2.subtitle {
     color: #bcbbbb;
 }
 
-#featured-work h3 {
+#featured-work figcaption {
     font-size: 26pt;
     color: #747704;
     text-transform: uppercase;
