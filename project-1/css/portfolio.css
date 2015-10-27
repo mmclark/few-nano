@@ -18,7 +18,7 @@
     margin-bottom: 3em;
 }
 
-h2.subtitle {
+.subtitle {
     margin-top: 2em;
     color: #bcbbbb;
 }
@@ -30,11 +30,11 @@ h2.subtitle {
     text-align: center;
 }
 
-#featured-work p.url {
+#featured-work p {
     text-align: center;
 }
 
-#featured-work p.url a {
+#featured-work a {
     font-size: 12pt;
     color: #bcbbbb;
 }
