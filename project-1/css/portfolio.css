@@ -23,10 +23,6 @@ h2.subtitle {
     color: #bcbbbb;
 }
 
-#featured-work img {
-    height: 200px;
-}
-
 #featured-work h3 {
     font-size: 26pt;
     color: #747704;
@@ -45,5 +41,4 @@ h2.subtitle {
 
 #mainimage img {
     width: 100%;
-    height: 400px;
 }
